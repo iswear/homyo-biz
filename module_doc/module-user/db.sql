@@ -68,7 +68,6 @@ create table `user_role_api_relation` (
     `create_time` timestamp not null default current_timestamp comment '创建时间',
     `update_time` timestamp not null default current_timestamp on update current_timestamp comment '更新时间',
     `role_id` int(11) unsigned not null default '0' comment '角色ID',
-    `api_id` int(11) unsigned not null default '' comment 'API权限',
     `deleted` tinyint(1) not null default '0' comment '是否已经删除：0.未删除；1.已删除',
     primary key(`id`)
 ) engine = InnoDB default charset = utf8 comment = '橘色权限关系';
