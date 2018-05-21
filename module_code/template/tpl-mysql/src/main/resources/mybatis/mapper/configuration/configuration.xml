@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <properties>
+        <property name="" value="" />
+    </properties>
+    <settings>
+        <setting name="" value=""/>
+    </settings>
+    <typeAliases>
+        <typeAlias type="" alias=""/>
+        <package name=""/>
+    </typeAliases>
+    <typeHandlers>
+        <typeHandler handler="" javaType="" jdbcType=""/>
+        <package name=""/>
+    </typeHandlers>
+    <objectFactory type="">
+        <property name="" value=""/>
+    </objectFactory>
+    <objectWrapperFactory type="" />
+    <reflectorFactory type="" />
+    <plugins>
+        <plugin interceptor=""></plugin>
+    </plugins>
+    <databaseIdProvider type="">
+        <property name="" value=""/>
+    </databaseIdProvider>
+    <environments default="">
+        <environment id="">
+            <transactionManager type=""></transactionManager>
+            <dataSource type=""></dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="" class="" url=""></mapper>
+        <package name=""></package>
+    </mappers>
+</configuration>
